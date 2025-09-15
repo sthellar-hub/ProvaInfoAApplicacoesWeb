@@ -1,0 +1,45 @@
+body {
+  background-color: #e6ffe6;
+  font-family: 'Verdana', sans-serif;
+
+  .result {
+    background-color: aquamarine;
+    border-radius: 5px;
+    padding-left: 10px;
+  }
+}
+
+h1 {
+  color: #2e8b57;
+  font-size: 36px;
+}
+
+input {
+  margin: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+label {
+  font-size: 18px;
+  color: #333;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.5s;
+  
+}
+
+button:hover {
+  background-color: #45a049;
+  transform: scale(1.25);
+}
